@@ -1,0 +1,95 @@
+:root {
+    --base-color: #F2F2F2;
+    --black-theme: #171819;
+    --footer-theme: 141A20;
+    --base-text-color: #48555B;
+    --accent-text-color: #00A4E5;
+    --white-color: #ffffff;
+}
+
+body {
+    background-color: var(--base-color);
+    font-family: 'Roboto Serif', serif;
+    color: var(--base-text-color);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section {
+    width: 1440px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero {
+    background-image: url(../images/bg.jpg);
+    height: 768px;
+    text-align: center;
+}
+
+.hero-container {
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.hero-title {
+    color: var(--white-color);
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.hero-sentence, .hero-proposal {
+    color: var(--white-color);
+}
+
+.hero-icon {
+    margin-bottom: 315px;
+}
+
+.hero-sentence {
+    margin-bottom: 220px;
+}
+
+.nav {
+    padding: 24px 250px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list-item:hover {
+    color: var(--accent-text-color);
+}
+
+.nav-list-item:not(:last-child) {
+    margin-right: 40px;
+}
