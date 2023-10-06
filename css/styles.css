@@ -116,6 +116,20 @@ a {
     font-weight: 700;
     margin-bottom: 92px;
     text-align: center;
+    
+    position: relative;
+}
+
+.story-title::after {
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 50px;
+    background-color: var(--accent-text-color);
+    
+    position: absolute;
+    top: 120%;
+    right: 47%;
 }
 
 .story-description {
