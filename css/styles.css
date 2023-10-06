@@ -93,3 +93,67 @@ a {
 .nav-list-item:not(:last-child) {
     margin-right: 40px;
 }
+
+.main-wrapper {
+    padding: 60px 250px 115px;
+}
+
+.story {
+    margin-bottom: 115px;
+}
+
+.story-wrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.story-block {
+    width: 405px;
+}
+
+.story-title {
+    font-weight: 700;
+    margin-bottom: 92px;
+    text-align: center;
+}
+
+.story-description {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.company-name {
+    color: var(--accent-text-color);
+}
+
+.strategies-list {
+    display: flex;
+}
+
+.strategies-item {
+    color: var(--white-color);
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 700;
+
+    width: 140px;
+    height: 224px;
+    background-size: cover;
+}
+
+.strategies-item:nth-child(1) {
+    background-image: url(../images/planImage.jpg);
+}
+
+.strategies-item:nth-child(2) {
+    background-image: url(../images/manageImg.jpg);
+}
+
+.strategies-item:nth-child(3) {
+    background-image: url(../images/builgImg.jpg);
+}
+
+.strategies-item:not(:last-child) {
+    margin-right: 20px;
+}
