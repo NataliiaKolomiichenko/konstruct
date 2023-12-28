@@ -47,6 +47,10 @@ a {
     margin-right: auto;
 }
 
+.header {
+    margin-bottom: 58px;
+}
+
 .hero {
     background-image: url(../images/bg.jpg);
     height: 768px;
@@ -95,7 +99,10 @@ a {
 }
 
 .main-wrapper {
-    padding: 60px 250px 115px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 115px;
+    width: 950px;
 }
 
 .story {
@@ -219,4 +226,35 @@ a {
     border-color: var(--accent-text-color);
     cursor: pointer;
     font-size: 13px;
+}
+
+.capabilities-list {
+    display: flex;
+    gap: 23px;
+}
+
+.capabilities-item {
+    height: 330px;
+    width: 295px;
+    padding: 29px 22px;
+    border: 1px solid #E6E6E6;
+}
+
+.capabilities-item-title {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 13px;
+    text-transform: uppercase;
+    width: 250px;
+}
+
+.capabilities-item-description {
+    font-size: 13px;
+    line-height: 1.77;
+}
+
+.capabilities-img {
+    width: 65px;
+    height: 75px;
+    margin-bottom: 25px;
 }
