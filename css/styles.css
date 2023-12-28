@@ -110,6 +110,7 @@ a {
 
 .story-block {
     width: 405px;
+    margin-right: 75px;
 }
 
 .story-title {
@@ -120,7 +121,7 @@ a {
     position: relative;
 }
 
-.story-title::after {
+.story-title::after, .capabilities-title::after {
     content: "";
     display: inline-block;
     height: 2px;
@@ -128,13 +129,24 @@ a {
     background-color: var(--accent-text-color);
     
     position: absolute;
+}
+
+.story-title::after {
     top: 120%;
     right: 47%;
 }
 
-.story-description {
+.story-history {
+    font-size: 20px;
+    line-height: 1.25;
     font-weight: 700;
     margin-bottom: 30px;
+}
+
+.story-description {
+    display: inline-block;
+    font-size: 11px;
+    line-height: 1.73;
 }
 
 .company-name {
@@ -182,10 +194,18 @@ a {
     margin-right: 154px;
     font-size: 18px;
     text-transform: uppercase;
+    min-width: 200px;
+    position: relative;
+}
+
+.capabilities-title::after {
+    left: 0;
+    bottom: 0;
 }
 
 .capabilities-descriptions {
     font-size: 11px;
+    line-height: 1.73;
     margin-right: 30px;
 }
 
