@@ -258,3 +258,48 @@ a {
     height: 75px;
     margin-bottom: 25px;
 }
+
+.calling {
+    background-image: url(../images/bg2.jpg);
+    background-size: cover;
+    border: 0;
+    height: 500px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.calling-title {
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 35px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signup {
+    background-color: var(--black-theme);
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.signup-title {
+    margin-right: 70px;
+    font-size: 22px;
+    line-height: 1.7;
+    color: var(--white-color);
+}
+
+.form {
+    display: flex;
+}
+
+.input {
+    padding: 10px 16px;
+    height: 40px;
+    width: 250px;
+    color: inherit;
+}
+
+
