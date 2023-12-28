@@ -1,7 +1,7 @@
 :root {
     --base-color: #F2F2F2;
     --black-theme: #171819;
-    --footer-theme: 141A20;
+    --footer-theme: #141A20;
     --base-text-color: #48555B;
     --accent-text-color: #00A4E5;
     --white-color: #ffffff;
@@ -300,6 +300,51 @@ a {
     height: 40px;
     width: 250px;
     color: inherit;
+}
+
+.footer {
+    padding-top: 46px;
+    background-color: var(--footer-theme);
+    display: flex;
+    justify-content: center;
+}
+
+.footer-company {
+    margin-right: 70px;
+    width: 250px;
+}
+
+.footer-company-title {
+    margin-bottom: 19px;
+    font-size: 11px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+
+.footer-company-logo {
+    margin-bottom: 15px;
+}
+
+.footer-company-description {
+    color: var(--white-color);
+    font-size: 11px;
+    line-height: 1.73;
+}
+
+.footer-links {
+    width: 260px;
+}
+
+.footer-contacts {
+    width: 140px;
+}
+
+.footer-media {
+    display: flex;
+    fill: var(--white-color);
+    gap: 37px;
 }
 
 
