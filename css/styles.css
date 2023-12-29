@@ -1,5 +1,4 @@
 :root {
-    --base-color: #F2F2F2;
     --black-theme: #171819;
     --footer-theme: #141A20;
     --base-text-color: #48555B;
@@ -8,7 +7,6 @@
 }
 
 body {
-    background-color: var(--base-color);
     font-family: 'Open Sans', serif;
     color: var(--base-text-color);
 }
@@ -45,6 +43,7 @@ a {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    background-color: var(--white-color);
 }
 
 .header {
@@ -304,9 +303,11 @@ a {
 
 .footer {
     padding-top: 46px;
+    padding-bottom: 39px;
     background-color: var(--footer-theme);
     display: flex;
     justify-content: center;
+    color: var(--white-color);
 }
 
 .footer-company {
@@ -319,7 +320,6 @@ a {
     font-size: 11px;
     line-height: 1.2;
     font-weight: normal;
-    color: var(--white-color);
     text-transform: uppercase;
 }
 
@@ -328,17 +328,58 @@ a {
 }
 
 .footer-company-description {
-    color: var(--white-color);
     font-size: 11px;
     line-height: 1.73;
 }
 
 .footer-links {
     width: 260px;
+    margin-right: 58px;
+}
+
+.footer-links-title,
+.footer-links-items {
+    font-size: 11px;
+
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.footer-links-title {
+    font-weight: normal;
+}
+
+.footer-links-items {
+    font-weight: 700;
+}
+
+.footer-links-list {
+    display: flex;
+}
+
+.footer-links-group:not(:last-child) {
+    margin-right: 36px;
 }
 
 .footer-contacts {
     width: 140px;
+    margin-right: 46px;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.footer-contacts-title {
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.footer-contacts-item {
+    line-height: 1.46;
+}
+
+.footer-contacts-item:not(:last-child) {
+    margin-bottom: 10px;
 }
 
 .footer-media {
@@ -347,4 +388,13 @@ a {
     gap: 37px;
 }
 
+.copyrigth {
+    background-color: var(--black-theme);
+    padding: 23px 0;
+    text-align: center;
+}
 
+.copyrigth-text {
+    color: var(--white-color);
+    font-size: 11px;
+}
